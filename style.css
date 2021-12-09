@@ -1,0 +1,110 @@
+:root{
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+
+    --Very-dark-blue-main-BG: hsl(217, 54%, 11%);
+    --very-dark-blue-card-BG: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background-color: var(--Very-dark-blue-main-BG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 20.3125rem;
+    height: 33.875rem;
+    background-color: var(--very-dark-blue-card-BG);
+    border-radius: .625rem;
+}
+
+.img{
+    width: 17.4375rem;
+    height: 14.1875rem;
+    background:url("./images/image-equilibrium.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: auto;
+    margin-top: 1.25rem;
+    border-radius: .5rem;
+}.title h1{
+    font-size: 1.775rem;
+    color: #fff;
+    margin-left: 1.375rem;
+    margin-top: 30px;
+    margin-bottom: 1.25rem;
+    font-weight: 600;
+}
+.title p{
+    margin-left: 1.375rem;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #6b7580;
+}
+
+.main-crypto{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.375rem;
+    align-items: center;
+}
+.crypto{
+    display: flex;
+    align-items: center;
+}
+.crypto h4{
+    margin-left: .625rem;
+    color: var(--Cyan);
+}
+.days{
+    display: flex;
+    align-items: center;
+    margin-right: .625rem;
+}
+.days h4{
+    margin-left: .625rem;
+    color: #7991AB;
+}
+.linia{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 22px;
+    
+}
+.footer{
+    display: flex;
+    align-items: center;
+    padding: 22px;
+}
+.footer h4{
+    margin-left: 10px;
+    color: #91a8c0;;
+}
+.footer span{
+    color: white;
+}
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
+}
+.attribution a{
+    color: wheat;
+}
